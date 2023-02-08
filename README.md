@@ -1,4 +1,4 @@
-![workflow](https://github.com/<jacktait8>/<sem>/actions/workflows/main.yml/badge.svg)
+![workflow](https://github.com/jacktait8/sem/actions/workflows/main.yml/badge.svg)
 
 author: Jack Tait
 
