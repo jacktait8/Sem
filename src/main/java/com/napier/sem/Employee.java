@@ -1,8 +1,6 @@
 package com.napier.sem;
 
 import java.sql.Connection;
-import java.sql.ResultSet;
-import java.sql.Statement;
 
 /**
      * Represents an employee
@@ -36,12 +34,12 @@ import java.sql.Statement;
     /**
      * Employee's current department
      */
-    public String dept_name;
+    public Department dept_name;
 
     /**
      * Employee's manager
      */
-    public String manager;
+    public Employee manager;
     private Connection con;
 }
 

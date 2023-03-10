@@ -12,9 +12,14 @@ public class Main {
             a.connect();
 
             // Extract employee salary information
-            ArrayList<Employee> employees = a.getAllSalaries();
+            ArrayList<Employee> employees = a.getDepartment("Sales");
 
             a.printSalaries(employees);
+
+
+
+
+
 
             // Test the size of the returned data - should be 240124
             System.out.println(employees.size());
